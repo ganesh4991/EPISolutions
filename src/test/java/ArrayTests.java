@@ -14,4 +14,12 @@ public class ArrayTests {
         DNF dnf = new DNF();
         Assert.assertEquals(expectedOutput, dnf.solve(input, 1));
     }
+
+    @Test
+    public void testIncrementNumber() {
+        List<Integer> input = Arrays.asList(9,9,9);
+        List<Integer> output = Arrays.asList(1,0,0,0);
+        IncrementNumber in = new IncrementNumber();
+        Assert.assertEquals(output, in.solve(input));
+    }
 }
