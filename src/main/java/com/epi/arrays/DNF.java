@@ -18,7 +18,6 @@ public class DNF {
                 mid++;
             }
         }
-
         return input;
     }
 }
